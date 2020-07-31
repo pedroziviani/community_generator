@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>RQ Mythic Iceland Community Generator</title>
+</head>
+<link rel="stylesheet" type="text/css" href="style.css">
+<body onLoad="newNPC();newNPCTwo();newNPCThree();newNPCFour();newNPCFive();newNPCSix();newNPCSeven();newNPCEight();newNPCNine();">
+    <h1>RQ Mythic Iceland Community Generator</h1>
+    <button onclick="newNPC();newNPCTwo();newNPCThree();newNPCFour();newNPCFive();newNPCSix();newNPCSeven();newNPCEight();newNPCNine();">Reroll all 9 NPCs</button>
+    <br>
+    <br>
+    <table>
+        <tbody>
+            <tr>
+                <td style="width:450px;vertical-align:top">
+                    <b>NPC #1</b>
+                    <br><br>
+                    <div id="nameDisplay"></div>
+                    <div id="nicknameDisplay"></div>
+                    <div id="statusDisplay"></div>
+                    <div id="genderDisplay"></div>
+                    <div id="ageDisplay"></div>
+                    <div id="featureDisplay"></div>
+                    <div id="personalityDisplay"></div>
+                    <br>
+                    <div id="bestSkillDisplay"></div>
+                    <div id="secondBestSkillDisplay"></div>
+                    <br>
+                    <b>Community Passions</b>
+                    <div id="firstCommunityPassionDisplay"></div>
+                    <div id="secondCommunityPassionDisplay"></div>
+                    <div id="firstAdventurerPassionDisplay"></div>
+                    <br>
+                    <div id="motivationPassionDisplay"></div>
+                    <br>
+                    <button onclick="newNPC()">Reroll NPC #1</button>
+                    <br><br>
+                </td>
+    
+                <td style="width:450px;vertical-align:top">
+                    <b>NPC #2</b>
+                    <br><br>
+                    <div id="nameDisplayTwo"></div>
+                    <div id="nicknameDisplayTwo"></div>
+                    <div id="statusDisplayTwo"></div>
+                    <div id="genderDisplayTwo"></div>
+                    <div id="ageDisplayTwo"></div>
+                    <div id="featureDisplayTwo"></div>
+                    <div id="personalityDisplayTwo"></div>
+                    <br>
+                    <div id="bestSkillDisplayTwo"></div>
+                    <div id="secondBestSkillDisplayTwo"></div>
+                    <br>
+                    <b>Community Passions</b>
+                    <div id="firstCommunityPassionDisplayTwo"></div>
+                    <div id="secondCommunityPassionDisplayTwo"></div>
+                    <div id="firstAdventurerPassionDisplayTwo"></div>
+                    <br>
+                    <div id="motivationPassionDisplayTwo"></div>
+                    <br>
+                    <button onclick="newNPCTwo()">Reroll NPC #2</button>
+                    <br><br>
+                </td>
+
+                <td style="width:450px;vertical-align:top">
+                    <b>NPC #3</b>
+                    <br><br>
+                    <div id="nameDisplayThree"></div>
+                    <div id="nicknameDisplayThree"></div>
+                    <div id="statusDisplayThree"></div>
+                    <div id="genderDisplayThree"></div>
+                    <div id="ageDisplayThree"></div>
+                    <div id="featureDisplayThree"></div>
+                    <div id="personalityDisplayThree"></div>
+                    <br>
+                    <div id="bestSkillDisplayThree"></div>
+                    <div id="secondBestSkillDisplayThree"></div>
+                    <br>
+                    <b>Community Passions</b>
+                    <div id="firstCommunityPassionDisplayThree"></div>
+                    <div id="secondCommunityPassionDisplayThree"></div>
+                    <div id="firstAdventurerPassionDisplayThree"></div>
+                    <br>
+                    <div id="motivationPassionDisplayThree"></div>
+                    <br>
+                    <button onclick="newNPCThree()">Reroll NPC #3</button>
+                    <br><br>
+                </td>
+            </tr>
+            <tr>
+                <td style="width:450px;vertical-align:top">
+                    <b>NPC #4</b>
+                    <br><br>
+                    <div id="nameDisplayFour"></div>
+                    <div id="nicknameDisplayFour"></div>
+                    <div id="statusDisplayFour"></div>
+                    <div id="genderDisplayFour"></div>
+                    <div id="ageDisplayFour"></div>
+                    <div id="featureDisplayFour"></div>
+                    <div id="personalityDisplayFour"></div>
+                    <br>
+                    <div id="bestSkillDisplayFour"></div>
+                    <div id="secondBestSkillDisplayFour"></div>
+                    <br>
+                    <b>Community Passions</b>
+                    <div id="firstCommunityPassionDisplayFour"></div>
+                    <div id="secondCommunityPassionDisplayFour"></div>
+                    <div id="firstAdventurerPassionDisplayFour"></div>
+                    <br>
+                    <div id="motivationPassionDisplayFour"></div>
+                    <br>
+                    <button onclick="newNPCFour()">Reroll NPC #4</button>
+                    <br><br>
+                </td>
+
+                <td style="width:450px;vertical-align:top">
+                    <b>NPC #5</b>
+                    <br><br>
+                    <div id="nameDisplayFive"></div>
+                    <div id="nicknameDisplayFive"></div>
+                    <div id="statusDisplayFive"></div>
+                    <div id="genderDisplayFive"></div>
+                    <div id="ageDisplayFive"></div>
+                    <div id="featureDisplayFive"></div>
+                    <div id="personalityDisplayFive"></div>
+                    <br>
+                    <div id="bestSkillDisplayFive"></div>
+                    <div id="secondBestSkillDisplayFive"></div>
+                    <br>
+                    <b>Community Passions</b>
+                    <div id="firstCommunityPassionDisplayFive"></div>
+                    <div id="secondCommunityPassionDisplayFive"></div>
+                    <div id="firstAdventurerPassionDisplayFive"></div>
+                    <br>
+                    <div id="motivationPassionDisplayFive"></div>
+                    <br>
+                    <button onclick="newNPCFive()">Reroll NPC #5</button>
+                    <br><br>
+                </td>
+
+                <td style="width:450px;vertical-align:top">
+                    <b>NPC #6</b>
+                    <br><br>
+                    <div id="nameDisplaySix"></div>
+                    <div id="nicknameDisplaySix"></div>
+                    <div id="statusDisplaySix"></div>
+                    <div id="genderDisplaySix"></div>
+                    <div id="ageDisplaySix"></div>
+                    <div id="featureDisplaySix"></div>
+                    <div id="personalityDisplaySix"></div>
+                    <br>
+                    <div id="bestSkillDisplaySix"></div>
+                    <div id="secondBestSkillDisplaySix"></div>
+                    <br>
+                    <b>Community Passions</b>
+                    <div id="firstCommunityPassionDisplaySix"></div>
+                    <div id="secondCommunityPassionDisplaySix"></div>
+                    <div id="firstAdventurerPassionDisplaySix"></div>
+                    <br>
+                    <div id="motivationPassionDisplaySix"></div>
+                    <br>
+                    <button onclick="newNPCSix()">Reroll NPC #6</button>
+                    <br><br>
+                </td>
+            </tr>
+            <tr>
+                <td style="width:450px;vertical-align:top">
+                    <b>NPC #7</b>
+                    <br><br>
+                    <div id="nameDisplaySeven"></div>
+                    <div id="nicknameDisplaySeven"></div>
+                    <div id="statusDisplaySeven"></div>
+                    <div id="genderDisplaySeven"></div>
+                    <div id="ageDisplaySeven"></div>
+                    <div id="featureDisplaySeven"></div>
+                    <div id="personalityDisplaySeven"></div>
+                    <br>
+                    <div id="bestSkillDisplaySeven"></div>
+                    <div id="secondBestSkillDisplaySeven"></div>
+                    <br>
+                    <b>Community Passions</b>
+                    <div id="firstCommunityPassionDisplaySeven"></div>
+                    <div id="secondCommunityPassionDisplaySeven"></div>
+                    <div id="firstAdventurerPassionDisplaySeven"></div>
+                    <br>
+                    <div id="motivationPassionDisplaySeven"></div>
+                    <br>
+                    <button onclick="newNPCSeven()">Reroll NPC #7</button>
+                    <br><br>
+                </td>
+
+                <td style="width:450px;vertical-align:top">
+                    <b>NPC #8</b>
+                    <br><br>
+                    <div id="nameDisplayEight"></div>
+                    <div id="nicknameDisplayEight"></div>
+                    <div id="statusDisplayEight"></div>
+                    <div id="genderDisplayEight"></div>
+                    <div id="ageDisplayEight"></div>
+                    <div id="featureDisplayEight"></div>
+                    <div id="personalityDisplayEight"></div>
+                    <br>
+                    <div id="bestSkillDisplayEight"></div>
+                    <div id="secondBestSkillDisplayEight"></div>
+                    <br>
+                    <b>Community Passions</b>
+                    <div id="firstCommunityPassionDisplayEight"></div>
+                    <div id="secondCommunityPassionDisplayEight"></div>
+                    <div id="firstAdventurerPassionDisplayEight"></div>
+                    <br>
+                    <div id="motivationPassionDisplayEight"></div>
+                    <br>
+                    <button onclick="newNPCEight()">Reroll NPC #8</button>
+                    <br><br>
+
+                <td style="width:450px;vertical-align:top">
+                    <b>NPC #9</b>
+                    <br><br>
+                    <div id="nameDisplayNine"></div>
+                    <div id="nicknameDisplayNine"></div>
+                    <div id="statusDisplayNine"></div>
+                    <div id="genderDisplayNine"></div>
+                    <div id="ageDisplayNine"></div>
+                    <div id="featureDisplayNine"></div>
+                    <div id="personalityDisplayNine"></div>
+                    <br>
+                    <div id="bestSkillDisplayNine"></div>
+                    <div id="secondBestSkillDisplayNine"></div>
+                    <br>
+                    <b>Community Passions</b>
+                    <div id="firstCommunityPassionDisplayNine"></div>
+                    <div id="secondCommunityPassionDisplayNine"></div>
+                    <div id="firstAdventurerPassionDisplayNine"></div>
+                    <br>
+                    <div id="motivationPassionDisplayNine"></div>
+                    <br>
+                    <button onclick="newNPCNine()">Reroll NPC #9</button>
+                    <br><br>
+                </td>
+               </td>
+            </tr>
+        </tbody>
+    </table>
+<script src="javascript.js" charset="utf-8"></script>
+</body>
+</html>
